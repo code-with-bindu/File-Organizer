@@ -16,4 +16,5 @@ A simple command-line tool in C++ that helps you organize files in a specified d
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/FileOrganizer.git
+   git clone https://github.com/code-with-bindu/FileOrganizer.git
+
