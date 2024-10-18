@@ -5,7 +5,7 @@
 namespace fs = std::filesystem;  
 
 void organizeFiles(const fs::path& directory) {  
-    // Map of supported file types and their corresponding folder names  
+    
     std::map<std::string, std::string> ext_to_folder = {  
         {".txt", "TextFiles"},  
         {".jpg", "Images"},  
@@ -13,7 +13,7 @@ void organizeFiles(const fs::path& directory) {
         {".cpp", "C++Files"},  
         {".docx", "WordDocuments"},  
         {".pdf", "PDFs"},  
-        // Add more file types as needed  
+        
     };  
 
     // Iterate through the directory  
